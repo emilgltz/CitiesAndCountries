@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(78, 84, 84);
+    color: rgb(240, 239, 235);
+    font-family: 'Amatic SC';
+    background-image: url("imgs/background.jpg");
+}
+
+    
+
+header, nav, article, footer {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border: rgb(219, 216, 202) solid 4px;
+    border-radius: 10px;
+    background-color: rgb(42, 120, 126);
+    justify-content: center;
+}
+
+h1{ 
+    margin: auto;   
+    font-size: 2em;
+    justify-content: center;
+    display: flex; 
+    padding: 10px; 
+}
+h2 {
+    margin-bottom: 30px;   
+    justify-content: center;
+    padding: 10px;  
+} 
+#city, #visited {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;   
+    justify-content: center;
+    border-radius: 15px;
+    width: 70%;
+    background-color: rgb(179, 168, 28);
+    color: black;
+    padding: 20px;  
+}
+.flex-container{
+    display: flex; 
+    justify-content: center;
+} 
+.flex-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+} 
+#CountryMenu {
+    width: 80%;
+}
+#VisitedMenu {
+    width: 30%;
+}    
+.flex-container ul li {
+    flex: grow;
+}  
+
+
+#visited {
+    background-color: rgb(68, 231, 139);
+    color: black;
+}
+
+#Save {
+    background-color: rgb(68, 231, 139);
+    color: rgba(207, 230, 9, 0.582); 
+    margin: 10px;
+}
+
+#clear {
+    background-color: rgb(114, 250, 182);
+    color: rgb(0, 0, 0);
+}
